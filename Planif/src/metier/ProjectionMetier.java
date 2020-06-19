@@ -19,10 +19,7 @@ import models.ProjectionDAO;
 import models.SalleDAO;
 import models.VipDAO;
 
-/**
- *
- * @author Rutabaga
- */
+
 public class ProjectionMetier
 {
     public void createProjection(int idFilm, int heure, int minute, int numJour, int idSalle)
